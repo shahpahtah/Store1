@@ -1,0 +1,13 @@
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\bin\Debug\net8.0\Store.Web.Contractors.deps.json
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\bin\Debug\net8.0\Store.Web.Contractors.dll
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\bin\Debug\net8.0\Store.Web.Contractors.pdb
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\obj\Debug\net8.0\Store.Web.Contractors.csproj.AssemblyReference.cache
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\obj\Debug\net8.0\Store.Web.Contractors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\obj\Debug\net8.0\Store.Web.Contractors.AssemblyInfoInputs.cache
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\obj\Debug\net8.0\Store.Web.Contractors.AssemblyInfo.cs
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\obj\Debug\net8.0\Store.Web.Contractors.csproj.CoreCompileInputs.cache
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\obj\Debug\net8.0\Store.Web.Contractors.sourcelink.json
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\obj\Debug\net8.0\Store.Web.Contractors.dll
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\obj\Debug\net8.0\refint\Store.Web.Contractors.dll
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\obj\Debug\net8.0\Store.Web.Contractors.pdb
+C:\Users\omaka\source\repos\Store1\presentation\Store.Web.Contractors\obj\Debug\net8.0\ref\Store.Web.Contractors.dll

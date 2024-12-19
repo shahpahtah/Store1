@@ -1,0 +1,13 @@
+C:\Users\omaka\source\repos\Store1\domain\Store\bin\Debug\net8.0\Store.deps.json
+C:\Users\omaka\source\repos\Store1\domain\Store\bin\Debug\net8.0\Store.dll
+C:\Users\omaka\source\repos\Store1\domain\Store\bin\Debug\net8.0\Store.pdb
+C:\Users\omaka\source\repos\Store1\domain\Store\obj\Debug\net8.0\Store.csproj.AssemblyReference.cache
+C:\Users\omaka\source\repos\Store1\domain\Store\obj\Debug\net8.0\Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omaka\source\repos\Store1\domain\Store\obj\Debug\net8.0\Store.AssemblyInfoInputs.cache
+C:\Users\omaka\source\repos\Store1\domain\Store\obj\Debug\net8.0\Store.AssemblyInfo.cs
+C:\Users\omaka\source\repos\Store1\domain\Store\obj\Debug\net8.0\Store.csproj.CoreCompileInputs.cache
+C:\Users\omaka\source\repos\Store1\domain\Store\obj\Debug\net8.0\Store.sourcelink.json
+C:\Users\omaka\source\repos\Store1\domain\Store\obj\Debug\net8.0\Store.dll
+C:\Users\omaka\source\repos\Store1\domain\Store\obj\Debug\net8.0\refint\Store.dll
+C:\Users\omaka\source\repos\Store1\domain\Store\obj\Debug\net8.0\Store.pdb
+C:\Users\omaka\source\repos\Store1\domain\Store\obj\Debug\net8.0\ref\Store.dll

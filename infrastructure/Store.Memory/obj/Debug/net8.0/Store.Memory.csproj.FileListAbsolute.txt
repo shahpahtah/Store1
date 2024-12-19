@@ -1,0 +1,16 @@
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\bin\Debug\net8.0\Store.Memory.deps.json
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\bin\Debug\net8.0\Store.Memory.dll
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\bin\Debug\net8.0\Store.Memory.pdb
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\bin\Debug\net8.0\Store.dll
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\bin\Debug\net8.0\Store.pdb
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\Store.Memory.csproj.AssemblyReference.cache
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\Store.Memory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\Store.Memory.AssemblyInfoInputs.cache
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\Store.Memory.AssemblyInfo.cs
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\Store.Memory.csproj.CoreCompileInputs.cache
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\Store.Memory.sourcelink.json
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\Store.Me.91E618A9.Up2Date
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\Store.Memory.dll
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\refint\Store.Memory.dll
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\Store.Memory.pdb
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Memory\obj\Debug\net8.0\ref\Store.Memory.dll

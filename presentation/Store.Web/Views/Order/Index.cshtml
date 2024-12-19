@@ -1,0 +1,58 @@
+﻿@using Store.Web.Controllers
+@model OrderModel
+<h1>Корзина</h1>
+<table>
+	<thead>
+		<th>Товар</th>
+		<th>Количество</th>
+		<th>Цена</th>
+		
+	</thead>
+	<tbody>
+		@for(int i = 0; i < Model.items.Count; i++)
+		{
+			<tr>
+				<td><a asp-controller ="Desc" asp-action="Index" asp-route-id="@Model.items[i].ProductId">@Model.items[i].Name</a></td>
+			<td>@Model.items[i].Count</td>
+			<td>@Model.items[i].Price</td>
+				<td><a asp-action="DecreaseOneItem" asp-route-id="@Model.items[i].ProductId"> - </a><a asp-action="IncreaseItem" asp-route-id="@Model.items[i].ProductId">+</a><br /></td>
+			<td><a asp-action="Delete" asp-route-id="@Model.items[i].ProductId" >Удалить товар</a></td>
+			</tr>
+		}
+	</tbody>
+	<tfoot>
+		<tr>
+			<td>Итого</td>
+			<td>Товаров: @Model.TotalCount</td>
+			<td>на сумму: @Model.TotalPrice</td>
+		</tr>
+	</tfoot>
+</table>
+<p>
+	Для оформления заказа необходимо подтвердить номер вашего мобильного.
+	Введите номер и нажмите <em>Отправить код</em>. На ваш номер будет отправлен *код подтверждения*.
+</p>
+
+<form action="@Url.Action(nameof(OrderController.SendConfirmation))" method="post">
+	<div class="form-group">
+		<label for="cellPhone">Мобильный телефон</label>
+		<input type="text" class="form-control" name="cellPhone" placeholder="+79876543210" value="+79876543210" />
+		@if (Model.Errors.ContainsKey("cellPhone"))
+		{
+			<small class="form-text text-danger">@Model.Errors["cellPhone"]</small>
+		}
+	</div>
+	<button type="submit" class="btn btn-success">Отправить код</button>
+</form>
+
+@* <form asp-action="SendConfirmationCode" asp-controller="Order"  method="post">
+	<input asp-for="Id" type="hidden",name="id" value="@Model.Id" />
+	<div class="form-group">
+		<label for="cellPhone">Мобильный телефон</label>
+		<input type="text" class="form-control" asp-for="CellPhone" name="cellPhone" value="+79876543210" />
+		@if (Model.Errors.ContainsKey("cellPhone")){
+			<small class="form-text text-danger">@Model.Errors["cellPhone"]</small>
+		}
+	</div>
+	<button type="submit" class="btn btn-success">Отправить код</button>
+</form> *@
