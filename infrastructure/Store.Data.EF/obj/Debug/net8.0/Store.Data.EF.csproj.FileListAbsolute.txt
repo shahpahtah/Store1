@@ -1,0 +1,16 @@
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\bin\Debug\net8.0\Store.Data.EF.deps.json
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\bin\Debug\net8.0\Store.Data.EF.dll
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\bin\Debug\net8.0\Store.Data.EF.pdb
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\bin\Debug\net8.0\Store.dll
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\bin\Debug\net8.0\Store.pdb
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\Store.Data.EF.csproj.AssemblyReference.cache
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\Store.Data.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\Store.Data.EF.AssemblyInfoInputs.cache
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\Store.Data.EF.AssemblyInfo.cs
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\Store.Data.EF.csproj.CoreCompileInputs.cache
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\Store.Data.EF.sourcelink.json
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\Store.Da.A8F7DE35.Up2Date
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\Store.Data.EF.dll
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\refint\Store.Data.EF.dll
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\Store.Data.EF.pdb
+C:\Users\omaka\source\repos\Store1\infrastructure\Store.Data.EF\obj\Debug\net8.0\ref\Store.Data.EF.dll

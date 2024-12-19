@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<h1>Отзыв</h1>
+<form id="thankYouForm" method="post" asp-action="ShowThankYou">
+    <label class="review_name" >Как вас зовут? <br /></label>
+    <input name="name" placeholder="Введите ваше имя" required/> <br />
+    <label>Оставьте свой отзыв: <br /></label>
+    <textarea placeholder="Введите отзыв" required></textarea><br />
+    <label>Поставьте нам оценку:</label> <br />
+    <select name="rating"><option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        </select> <br />
+    <button type="submit">Отправьте отзыв!</button><br />
+    </form>
+    <div id="thankYouMessage"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#thankYouForm').on('submit', function (event) {
+            event.preventDefault(); // предотвращает стандартное поведение формы
+            $.post($(this).attr('action'),$(this).serialize(), function (data) {
+                $('#thankYouMessage').html(data); // обновляет раздел с благодарностями
+            });
+        });
+    });
+</script>

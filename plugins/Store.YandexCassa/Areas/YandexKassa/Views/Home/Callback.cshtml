@@ -1,0 +1,10 @@
+﻿@using Store.YandexKassa.Areas.YandexKassa.Models
+@{
+	ViewData["title"] = "Яндекс касса";
+}
+@model ExampleModel
+<h1>Заказ оплачен</h1>
+<p>
+	< Заказ оплачен. Чтобы завершить оформление, нажмите кнопку <em>Далее</em>.
+</p>
+<a href="@Url.Action("Index")"><button>Далее</button></a>

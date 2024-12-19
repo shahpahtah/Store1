@@ -1,0 +1,38 @@
+﻿@using Store.Web.App
+@model IReadOnlyCollection<ProductModel>
+@{
+    
+}
+
+<div>
+    @if (Model.Count== 0)
+    {
+        @:<div>По вашему запросу ничего не найдено.</div>
+    }
+     else
+    {
+     <div>По вашему запросу найдено @Model.Count товаров:</div>
+        <table width="600" cellpadding="15" cellpadding="5">
+            <tr>
+                @{
+                    int i = 0;
+                    foreach(var model in @Model)
+                    {
+                        var product = model;
+                        <td><div class="image-frame"><img src="@product.imgsrc" class="man_f" /></div><br /><div class="desc_text"> @Html.ActionLink(product.name, "Index", "Desc", new { id = product.id })</div></td>
+                         @if (i%3==2)
+                            {
+                                @:<tr/>
+                                @:<tr>
+                            }
+                        i += 1;
+
+                    }
+                }
+        </tr>
+        </table>
+    }
+
+
+</div>
+

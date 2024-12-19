@@ -1,0 +1,134 @@
+﻿@model OrderModel
+@using Store
+@using Store.Web.Controllers
+@{
+   
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <link href="/css/styles.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Store.Web</title>
+    
+    <style>
+        .desc_title {
+            font-size: 18px;
+            font-weight: 400;
+            background-color: #eaeaea;
+        }
+
+        .desc_little {
+            colour: #707070;
+            font-size: 14px;
+            font-style: italic;
+            line-height: 16px;
+        }
+
+        .desc_big {
+            colour: #484343;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+        }
+       /*  .desc_marker{
+            list-style-image: url(https://banner2.cleanpng.com/20180513/wve/kisspng-t-shirt-adidas-sleeve-clothing-5af7c16ccd6a29.7828617915261863488414.jpg);
+        } */
+    </style>
+</head>
+<body style="background-color:#f8f8f8">
+    <header class="header">
+        <div class="header_main">
+            <img src="~/Befree.png" alt="logo" class="logo">
+            <h1 class="title">Befree</h1>
+            <form class="login">
+                <input type="text" name="login" id="login" placeholder="Логин" required>
+                <input type="password" name="password" id="password" placeholder="Пароль" required>
+                <button id="in">Войти</button>
+                <a href="" id="reg">Регистрация</a>
+            </form>
+        </div>
+        <div class="header_help">
+            <div class="header_hrefs">
+                <a asp-controller="Home" asp-action="Index" class="razdel">Главная</a>
+                <a asp-controller="Catalog" asp-action="Index" class="razdel">Каталог</a>
+                <a asp-controller="Contacts" asp-action="Index" class="razdel">Контакты</a>
+            </div>
+
+            <span class="header_cart ">
+                @{
+                    if (Context.Session.TryGetCart(out Cart cart) && cart.TotalCount > 0)
+                    {
+                        <a asp-action="Index" asp-controller="Order"> Товаров @cart.TotalCount на сумму:@cart.TotalPrice</a>
+                    }
+                    else
+
+                    {
+                        <a asp-action="Index" asp-controller="Order">Корзина пуста</a>
+                    }
+
+                }
+            </span>
+         
+            <form class="header_search" asp-action="Index" asp-controller="Search" method="post">
+                <input type="text" placeholder="Поиск" name="query" required>
+                <button>Искать</button>
+            </form>
+        </div>
+
+    </header>
+    <div class="content">
+        <div class="left">
+            <a asp-controller="About" asp-action="Index">О нас</a>
+            <a asp-controller="History" asp-action="Index">История бренда</a>
+          
+        </div>
+
+
+        <div class="main">
+<h1>Подтверждение мобильного</h1>
+
+            <p>
+                Введите <em>код подтверждения</em> из SMS.
+            </p>
+
+            <form action="@Url.Action(nameof(OrderController.ConfirmCellPhone))" method="post">
+    <input type="hidden" name="cellPhone" value="@Model.CellPhone" />
+    <div class="form-group">
+                    <label for="confirmationCode">Код потдверждения</label>
+                    <input type="text" class="form-control" name="confirmationCode" placeholder="0000" />
+                    @if (Model.Errors.ContainsKey("confirmationCode"))
+        {
+                        <small class="form-text text-danger">@Model.Errors["confirmationCode"]</small>
+        }
+    </div>
+    <button type="submit" class="btn btn-success">Проверить</button>
+</form>
+            <p>
+                Если на ваш номер SMS не пришла в течение минуты, проверьте правильность номера и
+                повторите отправку кода.
+            </p>
+
+    <form action="@Url.Action("SendConfirmation")" method="post">
+        <div class="form-group">
+            <label for="cellPhone">Мобильный телефон</label>
+            <input type="text" class="form-control" name="cellPhone" value="@Model.CellPhone" />
+                    @if (Model.Errors.ContainsKey("cellPhone"))
+                    {
+                        <small class="form-text text-danger">@Model.Errors["cellPhone"]</small>
+                    }
+        </div>
+        <button type="submit" class="btn btn-success">Повторить код</button>
+    </form>
+</div>
+</div>
+    <div class="footer">
+        <p>©Все права защищены</p>
+    </div>
+
+</body>
+</html>
